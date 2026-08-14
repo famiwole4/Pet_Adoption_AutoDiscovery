@@ -72,7 +72,7 @@ sudo ./aws/install
 
 #  install newrelic agent
 
-curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo NEW_RELIC_API_KEY=NRAK-6OWN0Q9OYO9Q66F73NFSQ33JXEC NEW_RELIC_ACCOUNT_ID=6496342 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
+curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo NEW_RELIC_API_KEY=NRAK-4B47TW581WDUVV5G6DO8J0MBRTS NEW_RELIC_ACCOUNT_ID=6496342 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
 
 # Set hostname
 sudo hostnamectl set-hostname jenkins
